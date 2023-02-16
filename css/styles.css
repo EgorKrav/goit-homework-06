@@ -531,7 +531,6 @@ body {
 
 .subscride-title {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud-color);
@@ -743,6 +742,7 @@ body {
     width: 408px;
     height: 584px;
     border-radius: 4px;
+    padding: 72px 24px 24px;
     background-color: #FCFCFC;
 }
 
@@ -783,11 +783,11 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--dark-color);
-    padding-top: 72px;
+    margin-bottom: 16px;
 }
 
 .modal-form {
-    padding: 16px 24px;
+
 }
 
 .modal-field {
@@ -800,6 +800,10 @@ body {
     line-height: 1.33;
     letter-spacing: 0.04em;
     color: var(--subtletext-color);
+    margin-bottom: 4px;
+}
+
+.modal-field-comment {
     margin-bottom: 4px;
 }
 
@@ -854,7 +858,7 @@ body {
 }
 
 .modal-comment::placeholder {
-    font-size: 12px;
+    font-size: 100%;
     line-height: 1.33;
     letter-spacing: 0.04em;
     color: rgba(117, 117, 117, 0.5);
@@ -871,6 +875,7 @@ body {
     line-height: 1.33;
     letter-spacing: 0.04em;
     color: #757575;
+    margin-bottom: 24px;
 }
 
 .input-check::before {
